@@ -1,0 +1,158 @@
+---
+title: "BIOINF3005/7160: Transcriptomics Applications"
+subtitle: "Course Homepage"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    echo = FALSE,
+    message = FALSE,
+    warning = FALSE
+)
+```
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(pander)
+library(kableExtra)
+options(knitr.kable.NA = '')
+panderOptions("table.style", "rmarkdown")
+panderOptions("table.split.table", Inf)
+panderOptions("missing", "")
+```
+
+```{r}
+pracs <- tribble(
+    ~Week, ~`Week Starting`, ~Lecture, ~Lecturer, ~LecUrl, ~Practical, ~PracUrl,
+    1, "2020-03-02", "Introduction", "Stephen Pederson", "lectures/1_Introduction.pdf", "Introduction to R and `rmarkdown`", "practicals/1_IntroR.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "Manipulating Text in R", "practicals/1_Using_stringr.html",
+    2, "2020-03-09", "**Adelaide Cup Day**", "No Lecture", "", "Using the tidyverse", "practicals/2_Tidyverse.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "Plotting Data with the `tidyverse`", "practicals/2.2_Tidyverse.html",
+    3, "2020-03-16", "Early Transcriptomic Techniques", "Stephen Pederson", "lectures/2_EarlyTranscriptomics.pdf", "Data Types in R", "practicals/3.1_DataTypes.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "Additional Visualisation", "practicals/3.2_MoreVisualisation.html",
+    4, "2020-03-23", "Microarrays and Statistics for Quantification", "Stephen Pederson", "lectures/3_MicroarrayTechnology.pdf", "The Bioconductor Project", "practicals/4.1_Bioconductor.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "Genomic Ranges", "practicals/4.2_GenomicRanges.html",
+    5, "2020-03-30", "Statistics For Transcriptomics", "Stephen Pederson", "lectures/4_Statistics.pdf", "Basic Statistics in R", "practicals/5.1_Statistics.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "Differential Expression", "practicals/5.2_MoreStatistics.html",
+    6, "2020-04-06", "RNA-Seq", "Zhipeng Qu", "lectures/Lecture5_RNASeq_ZQ_2020.pdf", "Using Limma For Differential Expression", "practicals/6.1_Limma.html",
+    NA_integer_, "2020-04-13", "**Mid-Semester Break**", "No Lecture", "", "", "",
+    NA_integer_, "2020-04-20", "**Mid-Semester Break**", "No Lecture", "", "", "",
+    7, "2020-04-27", "Alignment and Quantification", "Zhipeng Qu", "lectures/Lecture6_Alignment_Quantification_ZQ_2020.pdf", "More Complex Designs", "practicals/7.1_More_Complex_Designs.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "More Complex Designs (2)", "practicals/7.2_More_Complex_Designs2.html",
+    8, "2020-05-04", "Statistics for RNA-Seq", "Stephen Pederson", "lectures/7_Stats_For_RNASeq.pdf", "Alignments and Visualisation", "practicals/8.1_Alignments.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "Alignments and Visualisation", "practicals/8.2_Scripting_Alignments.html",
+    9, "2020-05-11", "Enrichment Analysis", "Stephen Pederson", "lectures/8_EnrichmentTesting.pdf", "Differential Expression Using edgeR", "practicals/9.1_edgeR.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "Enrichment Strategies", "practicals/9.2_EnrichmentAnalysis.html",
+    10, "2020-05-18", "Network Analysis", "Zhipeng Qu", "lectures/Lecture10_Network_Analysis_ZQ_2020.pdf", "WGCNA_part1", "practicals/10.1_WGCNA_part1.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "WGCNA_part2", "practicals/10.2_WGCNA_part2.html",
+    11, "2020-05-25", "Single Cell RNA-Seq", "Stephen Pederson", "lectures/10_scRNA.pdf", "scRNA", "practicals/11.1_scRNA.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "scRNA", "practicals/11.1_scRNA.html#removing_other_low_quality_cells",
+    12, "2020-06-01", "Transcriptome Assembly", "Terry Bertozzi", "lectures/11_Transcriptome_Assembly.pdf", "Using StringTie to Define New Transcripts", "practicals/12_Stringtie.html",
+    NA_integer_, NA_character_, NA_character_, NA_character_, NA_character_, "Assignment and Project Questions", "",
+    13, "2020-06-07", "Cancer Applications", "Dan Thomas", "", "", ""
+)
+```
+
+
+
+# Timetable
+
+- **Lectures**
+- Monday 9:10am - 10:00am, Ingkarni Wardli, Room B17
+- **Practicals**
+- Wednesday 9:10am - 11:00am, Johnson Building, Room 111
+- Friday 9:10am - 11:00am, Johnson Building, Room 111
+
+Lectures for this course are held on a Monday, and will clash with **two Public Holidays** in Semester 1.
+
+1. Week 2, March 9^th^, Adelaide Cup Day: **No Lecture in Week 2**
+2. Week 13, June 7^th^, Queen's Birthday: An alternative lecture time may be found for this week. This will be announced closer to the date.
+
+
+```{r}
+pracs %>%
+    mutate(
+        `Week Starting` = as_date(`Week Starting`), 
+        Lecture = case_when(
+            is.na(Lecture) ~ NA_character_,
+            !grepl("\\*\\*", Lecture) ~ paste0("[", Lecture, "](", LecUrl, ")", " (", Lecturer, ")"),
+            grepl("\\*\\*", Lecture) ~ paste0(Lecture, " (", Lecturer, ")")
+        ),
+        Practical = paste0("[", Practical, "](", PracUrl, ")")
+    ) %>%
+    dplyr::select(starts_with("Week"), Lecture, Practical) %>%
+    kable() %>%
+    kable_styling(
+        bootstrap_options = c("striped", "hover", "condensed", "responsive")
+    )   
+```
+
+
+
+# Assessments
+
+```{r}
+ass <- tribble(
+    ~Url, ~Topic, ~`Due Date`, ~Solutions,
+    "assignments/A1.html", "Introductory Work", "2020-03-24", "assignments/A1_Solutions.html",
+    "assignments/A2.html", "Gene Expression", "2020-04-09", "assignments/A2_Solutions.html",
+    "assignments/A3.html", "Differential Analysis", "2020-05-12", "assignments/A3_Solutions.html",
+    "assignments/A4.html", "Enrichment Analysis", "2020-05-26", "assignments/A4_Solutions.html",
+    "assignments/A5.html", "WGCNA and scRNA", "2020-06-09","assignments/A5_Solutions.html",
+    "assignments/A6.html", "Transcriptome Assembly", "2020-06-19", "assignments/A6_Solutions.html"
+) %>%
+    mutate(
+        Assessment = paste("Assessment", seq_len(nrow(.)) )
+    )
+```
+
+
+## Assessment Tasks
+
+```{r}
+ass %>%
+    mutate(
+      Solutions = case_when(
+        Solutions == "" ~ "",
+        Solutions != "" ~ paste0("[", Assessment, " Solutions](", Solutions, ")")
+      ),
+      Assessment = paste0("[", Assessment, "](", Url, ")")
+    ) %>%
+  dplyr::select(Assessment, Topic, `Due Date`, Solutions) %>%
+  kable() %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed", "responsive")
+    )   
+```
+
+## Major Project
+
+For the postgraduate students, an additional Major Project is included as part of your curriculum.
+The details of this project are available [here](assignments/MajorProject.html)
+
+## Assessment Checklist
+
+Have you:
+
+- [ ] Answered all the questions?
+- [ ] Followed naming conventions for Assessments?
+- [ ] Checked that you have not breached the [Academic Honesty Policy](http://www.adelaide.edu.au/policies/230/).
+- [ ] Identified the work as yours?
+- Emails should have the course and assessment task names.
+- Documents should be named with your name, the course name and the assessment task.
+- Printed documents should have you name and the course and assessment task in the text/footer/header.
+- [ ] Used appropriate electronic communication with assessors?
+- Emails should have a meaningful subject.
+- [ ] Handed in the assignment before the due time (see MyUni)?
+
+# Useful Links
+
+[How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html)
+
+[How to write a good bug report](https://musescore.org/en/developers-handbook/how-write-good-bug-report-step-step-instructions)
+
