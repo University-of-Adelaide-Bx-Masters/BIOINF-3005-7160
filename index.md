@@ -21,8 +21,8 @@ output:
 - **Lectures**
 - Monday 9:10am - 10:00am, Online only - See MyUni
 - **Practicals**
-- Wednesday 9:10am - 11:00am, Mawon Building, Room G12
-- Friday 11:10am - 1:00pm, Johnson Building, Room 111
+- Wednesday 9:10am - 11:00am, Johnson Building, Room 111
+- Thursday 9:10am - 11:00am, Mawson Building, Room G12 - **Except on Thursday 18 March, Engineering & Mathematics Building, EMG06**
 
 Lectures for this course are held on a Monday, and will clash with **three Public Holidays** in Semester 1.
 
@@ -76,7 +76,7 @@ Lectures for this course are held on a Monday, and will clash with **three Publi
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [Additional Visualisation](practicals/3.2_MoreVisualisation.html) </td>
+   <td style="text-align:left;"> **Thursday 18 March practical in Engineering & Mathematics, EMG06**[Additional Visualisation](practicals/3.2_MoreVisualisation.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 4 </td>
