@@ -63,15 +63,16 @@ pracs <- tribble(
 # Timetable
 
 - **Lectures**
-- Monday 9:10am - 10:00am, Ingkarni Wardli, Room B17
+- Monday 9:10am - 10:00am, Online only - See MyUni course page
 - **Practicals**
-- Wednesday 9:10am - 11:00am, Johnson Building, Room 111
-- Friday 9:10am - 11:00am, Johnson Building, Room 111
+- Tuesday 9:10am - 11:00am, Mawson Building, Room G12
+- Friday 11:10am - 1:00pm, Johnson Building, Room 111
 
-Lectures for this course are held on a Monday, and will clash with **two Public Holidays** in Semester 1.
+Lectures for this course are held on a Monday, and will clash with **three Public Holidays** in Semester 1.
 
-1. Week 2, March 9^th^, Adelaide Cup Day: **No Lecture in Week 2**
-2. Week 13, June 7^th^, Queen's Birthday: An alternative lecture time may be found for this week. This will be announced closer to the date.
+1. Week 2, March 8^th^, Adelaide Cup Day: **No Lecture in Week 2**
+2. Week 6, April 5^th^, Easter Monday: **No Lecture in Week 6** 
+3. Week 13, June 7^th^, Queen's Birthday: An alternative lecture time may be found for this week. This will be announced closer to the date.
 
 
 ```{r}
