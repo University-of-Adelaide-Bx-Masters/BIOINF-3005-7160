@@ -45,68 +45,68 @@ Lectures for this course are held on a Monday, and will clash with **three Publi
   <tr>
    <td style="text-align:right;"> 1 </td>
    <td style="text-align:left;"> 2021-03-01 </td>
-   <td style="text-align:left;"> [Introduction](lectures/1_Introduction.pdf) (???<s><mark>Stephen Pederson</mark></s>) </td>
-   <td style="text-align:left;"> [Introduction to R and `rmarkdown`](practicals/1_IntroR.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Introduction](lectures/1_Introduction.pdf) (Stephen Pederson) </td>
+   <td style="text-align:left;"> [Introduction to R and `rmarkdown`](practicals/1_IntroR.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [Manipulating Text in R](practicals/1_Using_stringr.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Manipulating Text in R](practicals/1_Using_stringr.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:left;"> 2021-03-08 </td>
    <td style="text-align:left;"> **Adelaide Cup Day** (No Lecture) </td>
-   <td style="text-align:left;"> [Using the tidyverse](practicals/2_Tidyverse.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Using the tidyverse](practicals/2_Tidyverse.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [Plotting Data with the `tidyverse`](practicals/2.2_Tidyverse.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Plotting Data with the `tidyverse`](practicals/2.2_Tidyverse.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 3 </td>
    <td style="text-align:left;"> 2021-03-15 </td>
-   <td style="text-align:left;">  [Microarrays and Statistics for Quantification](lectures/3_MicroarrayTechnology.pdf) (???<s><mark>Stephen Pederson</mark></s>) </td>
-   <td style="text-align:left;"> [Data Types in R](practicals/3.1_DataTypes.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Early Transcriptomic Techniques](lectures/2_EarlyTranscriptomics.pdf) (Stephen Pederson) </td>
+   <td style="text-align:left;"> [Data Types in R](practicals/3.1_DataTypes.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> **Thursday 18 March practical in Engineering & Mathematics, EMG06**[Additional Visualisation](practicals/3.2_MoreVisualisation.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> **Thursday 18 March practical in Engineering & Mathematics, EMG06**[Additional Visualisation](practicals/3.2_MoreVisualisation.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 4 </td>
    <td style="text-align:left;"> 2021-03-22 </td>
-   <td style="text-align:left;"> [Statistics For Transcriptomics](lectures/4_Statistics.pdf)(???<s><mark>Stephen Pederson</mark></s>) </td>
-   <td style="text-align:left;"> [The Bioconductor Project](practicals/4.1_Bioconductor.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Microarrays and Statistics for Quantification](lectures/3_MicroarrayTechnology.pdf) (Stephen Pederson) </td>
+   <td style="text-align:left;"> [The Bioconductor Project](practicals/4.1_Bioconductor.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [Genomic Ranges](practicals/4.2_GenomicRanges.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Genomic Ranges](practicals/4.2_GenomicRanges.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 5 </td>
    <td style="text-align:left;"> 2021-03-29 </td>
-   <td style="text-align:left;"> [RNA-Seq](lectures/Lecture5_RNASeq_ZQ_2020.pdf) (Zhipeng Qu) </td>
-   <td style="text-align:left;"> [Basic Statistics in R](practicals/5.1_Statistics.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Statistics For Transcriptomics](lectures/4_Statistics.pdf) (Stephen Pederson) </td>
+   <td style="text-align:left;"> [Basic Statistics in R](practicals/5.1_Statistics.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [Differential Expression](practicals/5.2_MoreStatistics.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Differential Expression](practicals/5.2_MoreStatistics.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 6 </td>
    <td style="text-align:left;"> 2021-04-05 </td>
-   <td style="text-align:left;"> **Easter Monday** (No Lecture) </td>
-   <td style="text-align:left;"> [Using Limma For Differential Expression](practicals/6.1_Limma.html) (<s><mark>Stephen Pederson</mark></s>/Zhipeng Qu)</td>
+   <td style="text-align:left;"> **Easter Monday** (No Lecture) [RNA-Seq](lectures/Lecture5_RNASeq_ZQ_2020.pdf) (Zhipeng Qu) </td>
+   <td style="text-align:left;"> [Using Limma For Differential Expression](practicals/6.1_Limma.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
@@ -123,68 +123,68 @@ Lectures for this course are held on a Monday, and will clash with **three Publi
   <tr>
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:left;"> 2021-04-26 </td>
-   <td style="text-align:left;"> **ANZAC Day** (No Lecture)  </td>
-   <td style="text-align:left;"> [More Complex Designs](practicals/7.1_More_Complex_Designs.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> **ANZAC Day** (No Lecture) [Alignment and Quantification](lectures/Lecture6_Alignment_Quantification_ZQ_2020.pdf) (Zhipeng Qu) </td>
+   <td style="text-align:left;"> [More Complex Designs](practicals/7.1_More_Complex_Designs.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [More Complex Designs (2)](practicals/7.2_More_Complex_Designs2.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [More Complex Designs (2)](practicals/7.2_More_Complex_Designs2.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:left;"> 2021-05-03 </td>
-   <td style="text-align:left;"> [Alignment and Quantification](lectures/Lecture6_Alignment_Quantification_ZQ_2020.pdf) (Zhipeng Qu)</td>
-   <td style="text-align:left;"> [Alignments and Visualisation](practicals/8.1_Alignments.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Statistics for RNA-Seq](lectures/7_Stats_For_RNASeq.pdf) (Stephen Pederson) </td>
+   <td style="text-align:left;"> [Alignments and Visualisation](practicals/8.1_Alignments.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [Alignments and Visualisation](practicals/8.2_Scripting_Alignments.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Alignments and Visualisation](practicals/8.2_Scripting_Alignments.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 9 </td>
    <td style="text-align:left;"> 2021-05-10 </td>
-   <td style="text-align:left;"> [Statistics for RNA-Seq](lectures/7_Stats_For_RNASeq.pdf) (???<s><mark>Stephen Pederson</mark></s>) </td>
-   <td style="text-align:left;"> [Differential Expression Using edgeR](practicals/9.1_edgeR.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Enrichment Analysis](lectures/8_EnrichmentTesting.pdf) (Stephen Pederson) </td>
+   <td style="text-align:left;"> [Differential Expression Using edgeR](practicals/9.1_edgeR.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [Enrichment Strategies](practicals/9.2_EnrichmentAnalysis.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
+   <td style="text-align:left;"> [Enrichment Strategies](practicals/9.2_EnrichmentAnalysis.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 10 </td>
    <td style="text-align:left;"> 2021-05-17 </td>
-   <td style="text-align:left;"> [Network Analysis](lectures/Lecture10_Network_Analysis_ZQ_2020.pdf) (Zhipeng Qu)</td>
-   <td style="text-align:left;"> [WGCNA_part1](practicals/10.1_WGCNA_part1.html) (Zhipeng Qu)</td>
+   <td style="text-align:left;"> [Network Analysis](lectures/Lecture10_Network_Analysis_ZQ_2020.pdf) (Zhipeng Qu) </td>
+   <td style="text-align:left;"> [WGCNA_part1](practicals/10.1_WGCNA_part1.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [WGCNA_part2](practicals/10.2_WGCNA_part2.html) (Zhipeng Qu)</td>
+   <td style="text-align:left;"> [WGCNA_part2](practicals/10.2_WGCNA_part2.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 11 </td>
    <td style="text-align:left;"> 2021-05-24 </td>
-   <td style="text-align:left;"> [Enrichment Analysis](lectures/8_EnrichmentTesting.pdf) (???<s><mark>Stephen Pederson</mark></s>)</td>
-   <td style="text-align:left;"> [???] </td>
+   <td style="text-align:left;"> [Single Cell RNA-Seq](lectures/10_scRNA.pdf) (Stephen Pederson) </td>
+   <td style="text-align:left;"> [scRNA](practicals/11.1_scRNA.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [???] </td>
+   <td style="text-align:left;"> [scRNA](practicals/11.1_scRNA.html#removing_other_low_quality_cells) </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 12 </td>
    <td style="text-align:left;"> 2021-05-31 </td>
    <td style="text-align:left;"> [Transcriptome Assembly](lectures/11_Transcriptome_Assembly.pdf) (Terry Bertozzi) </td>
-   <td style="text-align:left;"> [Using StringTie to Define New Transcripts](practicals/12_Stringtie.html) (Terry Bertozzi) </td>
+   <td style="text-align:left;"> [Using StringTie to Define New Transcripts](practicals/12_Stringtie.html) </td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
@@ -195,7 +195,7 @@ Lectures for this course are held on a Monday, and will clash with **three Publi
   <tr>
    <td style="text-align:right;"> 13 </td>
    <td style="text-align:left;"> 2021-06-07 </td>
-   <td style="text-align:left;"> [TBD] </td>
+   <td style="text-align:left;"> [Cancer Applications]() (Dan Thomas) </td>
    <td style="text-align:left;"> []() </td>
   </tr>
 </tbody>
@@ -223,37 +223,37 @@ Lectures for this course are held on a Monday, and will clash with **three Publi
   <tr>
    <td style="text-align:left;"> [Assessment 1](assignments/A1.html) </td>
    <td style="text-align:left;"> Introductory Work </td>
-   <td style="text-align:left;"> 2021-03-23 </td>
+   <td style="text-align:left;"> 2020-03-24 </td>
    <td style="text-align:left;"> [Assessment 1 Solutions](assignments/A1_Solutions.html) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Assessment 2](assignments/A2.html) </td>
    <td style="text-align:left;"> Gene Expression </td>
-   <td style="text-align:left;"> 2021-04-09 </td>
+   <td style="text-align:left;"> 2020-04-09 </td>
    <td style="text-align:left;"> [Assessment 2 Solutions](assignments/A2_Solutions.html) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Assessment 3](assignments/A3.html) </td>
    <td style="text-align:left;"> Differential Analysis </td>
-   <td style="text-align:left;"> 2021-05-11 </td>
+   <td style="text-align:left;"> 2020-05-12 </td>
    <td style="text-align:left;"> [Assessment 3 Solutions](assignments/A3_Solutions.html) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Assessment 4](assignments/A4.html) </td>
    <td style="text-align:left;"> Enrichment Analysis </td>
-   <td style="text-align:left;"> 2021-05-25 </td>
+   <td style="text-align:left;"> 2020-05-26 </td>
    <td style="text-align:left;"> [Assessment 4 Solutions](assignments/A4_Solutions.html) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Assessment 5](assignments/A5.html) </td>
-   <td style="text-align:left;"> WGCNA </td>
-   <td style="text-align:left;"> 2021-06-09 </td>
+   <td style="text-align:left;"> WGCNA and scRNA </td>
+   <td style="text-align:left;"> 2020-06-09 </td>
    <td style="text-align:left;"> [Assessment 5 Solutions](assignments/A5_Solutions.html) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Assessment 6](assignments/A6.html) </td>
    <td style="text-align:left;"> Transcriptome Assembly </td>
-   <td style="text-align:left;"> 2021-06-18 </td>
+   <td style="text-align:left;"> 2020-06-19 </td>
    <td style="text-align:left;"> [Assessment 6 Solutions](assignments/A6_Solutions.html) </td>
   </tr>
 </tbody>
