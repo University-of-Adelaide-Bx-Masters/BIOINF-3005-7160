@@ -136,13 +136,13 @@ Lectures for this course are held on a Monday, and will clash with **three Publi
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:left;"> 2021-05-03 </td>
    <td style="text-align:left;"> [Alignment and Quantification](lectures/Lecture6_Alignment_Quantification_ZQ_2020.pdf) (Zhipeng Qu)</td>
-   <td style="text-align:left;"> [Alignments and Visualisation](practicals/8.1_Alignments.html) (Paul Wang)</td>
+   <td style="text-align:left;"> [Alignments and Visualisation](practicals/8.1_Alignments.html) (???)</td>
   </tr>
   <tr>
    <td style="text-align:right;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [Alignments and Visualisation](practicals/8.2_Scripting_Alignments.html) (Paul Wang)</td>
+   <td style="text-align:left;"> [Alignments and Visualisation](practicals/8.2_Scripting_Alignments.html) (???Paul Wang)</td>
   </tr>
   <tr>
    <td style="text-align:right;"> 9 </td>
