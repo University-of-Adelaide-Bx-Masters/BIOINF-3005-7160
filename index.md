@@ -147,7 +147,7 @@ Lectures for this course are held on a Monday, and will clash with **three Publi
   <tr>
    <td style="text-align:right;"> 9 </td>
    <td style="text-align:left;"> 2021-05-10 </td>
-   <td style="text-align:left;"> [Statistics for RNA-Seq](lectures/7_Stats_For_RNASeq.pdf) (Paul Wang) </td>
+   <td style="text-align:left;"> [Statistics for RNA-Seq](lectures/7_Stats_For_RNASeq.pdf) (???) </td>
    <td style="text-align:left;"> [Differential Expression Using edgeR](practicals/9.1_edgeR.html) (???<s><mark>Stephen Pederson</mark></s>)</td>
   </tr>
   <tr>
